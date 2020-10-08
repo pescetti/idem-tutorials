@@ -60,7 +60,7 @@
 1. Become ROOT: 
    * ```sudo su -```
 
-2. Create the Shibboleth Repository:
+2. Install the Apache HTTP Server:
    * ```yum install httpd.x86_64```
 
 3. Remove the pre-set Apache welcome page
@@ -92,7 +92,7 @@
      enabled=1
      ```
 
-   * Save changes by clicking on the ```Esc``` button and by digiting ```:wq```
+   * Save changes by pressing the ```Esc``` key, then typing ```:wq``` and pressing ```Enter```
 
 3. Update the repositories with:
 
